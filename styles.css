@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+}
+h1 {
+  color: white; text-align:center
+}
+p {
+  color: white;
+}
+
+a:link {
+  color: white; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;}

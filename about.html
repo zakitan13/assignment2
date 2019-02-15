@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <title>About</title>
+    <link rel=stylesheet href="styles.css">
+
+</head>
+<style>
+.header {font-size:300%;
+font-family:courier;
+text-align:center}
+</style>
+<body>
+<nav style="font-size:200%; text-align:center;" width="100%">
+    <b>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="facilities.html">Facilities</a>
+        <a href="prices.html">Prices</a>
+    </b>
+    </nav>
+<h1 class="header">ABOUT</h1>
+
+<p style="color:white; text-align:center; font-size:150%"><q><i>Best gym in Singapore period</i></q> - <b>The Straights Times</p>
+<hr>
+<br>
+<p style="color:white; text-align:center; font-size:150%">Taken from the <abbr title="Gym Is Not For The Weak">GNFTW</abbr> daily reviews of gyms:</b></p>
+<blockquote cite="gymisnotfortheweak.org" style="color:white; text-align:center; font-size:150%"><i>
+"Complete gym with state of the art facilities that can provide a wide range of intense, efficient and high-performance reps that will definitely improve the strength and fitness of its users. 
+<br>
+Will highly reccommend to those who are serious in their gains and making the pecs fly. Not for the weak. Period."</i></blockquote>
+<hr>
+
+<h1>Tour of our facilities with our trainer Jake Alvarez</h1>
+<div style="text-align:center"> 
+  <button onclick="playPause()">Play/Pause</button> 
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+  <br><br>
+  <video id="video1" width="420">
+    <source src="Video.mp4" type="video/mp4">
+   
+    Your browser does not support HTML5 video.
+  </video>
+</div> 
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 760; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 320; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 520; 
+} 
+</script> 
+<hr>
+<h1>Locate Greatness</h1>
+
+<picture>
+ 
+  <source media="min-width: 1500px" srcset="Map.jpg">
+  <img src="Entrance.jpg" alt="Flowers" style="width:auto;float:left">
+</picture>
+<p style="color:white">
+<address style="float:left; color:white; font-size:250%; margin:20px">
+Our Address.<br> 
+Box 564, Boon Lay Way<br>
+Singapore<br>
+Visit us at:<br>
+blpg.com.sg<br>
+</address></p>
+<p style="color:white; float:left; font-size:250%; margin:20px">
+ZOOM IN TO VIEW OUR ENTRANCE
+</p>
+</body>
